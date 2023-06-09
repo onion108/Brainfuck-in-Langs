@@ -36,7 +36,7 @@ Any content in this repository (including pull requests that are ready for mergi
 
 - [x] C
 - [x] D
-- [ ] Rust
+- [x] Rust
 - [ ] Go
 - [ ] C++
 - [ ] Java
