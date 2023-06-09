@@ -36,7 +36,7 @@ void show_help(const char* program_name) {
         "&N [source_file] [output_file]",
         "Description: ",
         "If one argument is given, run the [source_file] as a Brainfuck source file. It will interprete the content in that file as a Brainfuck source. ",
-        "If two arguents are given, it will compile the [source_file] and output the result to the [output_file]. ",
+        "If two arguments are given, it will compile the [source_file] and output the result to the [output_file]. ",
         NULL,
     };
     const char **iter = help;

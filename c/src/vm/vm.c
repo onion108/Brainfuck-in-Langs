@@ -113,7 +113,7 @@ void print_program(Program *program, FILE *fp) {
             case BFVM_OP_UNCOMPLETED:
                 fprintf(fp, "?[%d]", inst->lab);
         }
-        fprintf(fp, "         ; adrr=%08X\n", idx);
+        fprintf(fp, "         ; addr=%08X\n", idx);
         idx += 1;
     }
 }
