@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"27Onion Nebell"
+	],
+	"copyright": "Copyright © 2023, 27Onion Nebell",
+	"description": "A brainfuck interpreter written in D.",
+	"license": "proprietary",
+	"name": "dbfi"
+}
