@@ -24,6 +24,7 @@ We take the C language version as the standard (source code could be found in `/
 - Command-line argument format;
 - Help message;
 - The output when given the same input;
+
 The error message could be different.
 
 When writing a interpreter in the programming language, you must write the interpreter entirely in that progrmaming language, not just translate the C version into that or port the C version to that programming language. You should entirely rewrite it, and use features in that progrmaming language. You should make the source code typical in that progrmaming language, not a C-style source code in other programming languages.
@@ -37,7 +38,7 @@ Any content in this repository (including pull requests that are ready for mergi
 - [x] C
 - [x] D
 - [x] Rust
-- [ ] Go
+- [x] Go
 - [ ] C++
 - [ ] Java
 - [ ] Swift
