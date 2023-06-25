@@ -6,6 +6,7 @@ int compile(const char *path, Program *p) {
     FILE* fp = fopen(path, "r"); 
     if (!fp) {
         fprintf(stderr, "Cannot open file: %s", path); 
+        return 1;
     }
 
     int c;
