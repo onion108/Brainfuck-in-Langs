@@ -3,6 +3,7 @@
 #include <cstddef>
 #include <sstream>
 #include <string>
+#include <string_view>
 
 namespace utils {
 
@@ -69,12 +70,18 @@ namespace utils {
         return s;
     }
 
+    template <>
+    inline std::string to_string<std::string_view>(std::string_view sv) {
+        return std::string {sv};
+    }
+
     template <typename ...Args>
     inline std::string concat(Args ...args) {
         std::stringstream ss;
         (ss << ... << to_string(args)) << "";
         return ss.str();
     }
+
 
 };
 

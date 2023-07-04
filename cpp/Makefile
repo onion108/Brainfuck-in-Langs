@@ -7,7 +7,7 @@ SRC_DIR ?= ./src
 SRCS := $(shell find $(SRC_DIR) -name *.cc)
 OBJS := $(SRCS:%=$(BUILD_DIR)/%.o)
 
-CXXFLAGS ?= -O2 -std=c++20 -v
+CXXFLAGS ?= -O2 -std=c++2b -v
 $(BUILD_DIR)/$(TARGET_EXEC): $(OBJS) $(BUILD_DIR) $(BUILD_DIR)/bin
 	$(CXX) $(OBJS) -o $@ $(LDFLAGS)
 
