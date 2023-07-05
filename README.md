@@ -39,7 +39,7 @@ Any content in this repository (including pull requests that are ready for mergi
 - [x] D
 - [x] Rust
 - [x] Go
-- [ ] C++
+- [x] C++
 - [ ] Java
 - [ ] Swift
 
